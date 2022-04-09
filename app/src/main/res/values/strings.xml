@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RateMyClass</string>
+    <string name="post_date">Listing posted on %1$s</string>
+    <string name="price">$%1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="rate_score">Score</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

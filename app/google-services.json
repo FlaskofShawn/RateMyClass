@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "903463428695",
+    "project_id": "ecs198f-finalproj",
+    "storage_bucket": "ecs198f-finalproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903463428695:android:155aecf9b8fe6a85b4f912",
+        "android_client_info": {
+          "package_name": "com.android.example.ratemyclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903463428695-48rmvnvm4sj5h5osn1aogdoluocq824e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHYO61ff2LO6wduiH7B9llw95OvN19X1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903463428695-48rmvnvm4sj5h5osn1aogdoluocq824e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903463428695:android:2a07e4877cdd0ea9b4f912",
+        "android_client_info": {
+          "package_name": "com.android.example.ratemycourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903463428695-48rmvnvm4sj5h5osn1aogdoluocq824e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHYO61ff2LO6wduiH7B9llw95OvN19X1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903463428695-48rmvnvm4sj5h5osn1aogdoluocq824e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

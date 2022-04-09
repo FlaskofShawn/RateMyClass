@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassFeedFragment"
+    android:background="@color/background_grey">
+
+    <ProgressBar
+        android:id="@+id/class_feed_progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Rate My Class"/>
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:text="Add"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_gravity="end"/>
+        </FrameLayout>
+
+        <!-- TODO: PHASE 3.1 - Add RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/class_feed_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!-- TODO: PHASE 3.1 - Add Post Button -->
+
+    </LinearLayout>
+
+
+</FrameLayout>

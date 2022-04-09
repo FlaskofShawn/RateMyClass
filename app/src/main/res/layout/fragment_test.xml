@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/test_get_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get all" />
+
+        <Button
+            android:id="@+id/test_set_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set cur user" />
+
+
+        <Button
+            android:id="@+id/test_add_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Course" />
+
+        <Button
+            android:id="@+id/test_post_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Rating" />
+
+        <Button
+            android:id="@+id/test_cancel_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel Rating" />
+
+        <Button
+            android:id="@+id/test_delete_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Course" />
+
+    </LinearLayout>
+</FrameLayout>
